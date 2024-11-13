@@ -1,0 +1,13 @@
+Features
+GraphQL API for managing employee data.
+Authentication & Authorization: Role-based access control for Admin and Employee roles.
+CRUD Operations: Admin can add, update, and view employee data; Employees can view data.
+Pagination & Sorting: List employees with pagination and sorting options.
+Performance Optimizations for efficient data retrieval.
+
+git clone <repository-url>
+cd employee-management-app
+
+npm install
+
+node src/server.js
